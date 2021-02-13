@@ -1,0 +1,148 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-26T17:31:43.981Z",
+        "line": 3,
+        "name": "Successfull Login With Valid Credentials",
+        "description": "",
+        "id": "login;successfull-login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4395860200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Launch chrome Browser",
+            "match": {
+              "location": "stepDefinition.Steps.user_launch_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2181543000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User opens url \"http://demo.guru99.com/Agile_Project/Agi_V1/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://demo.guru99.com/Agile_Project/Agi_V1/\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefinition.Steps.user_opens_url(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 454783500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters UserID as \"1303\" and Password as \"Guru99\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1303\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"Guru99\"",
+                  "offset": 45
+                }
+              ],
+              "location": "stepDefinition.Steps.user_enters_user_id_as_and_password_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1357368800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "clicks on Login",
+            "match": {
+              "location": "stepDefinition.Steps.clicks_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12973300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Page Title should be \"Guru99 Bank Customer HomePage\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Guru99 Bank Customer HomePage\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefinition.Steps.page_title_should_be(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3432612100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User Click on LogOut Link",
+            "match": {
+              "location": "stepDefinition.Steps.user_click_on_log_out_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1154222400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Page Title should be \"Guru99 Bank Home Page\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Guru99 Bank Home Page\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefinition.Steps.page_title_should_be(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 854402400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Browser should close",
+            "match": {
+              "location": "stepDefinition.Steps.browser_should_close()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/login.feature",
+    "tags": []
+  }
+]
